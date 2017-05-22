@@ -72,7 +72,11 @@ plan tests => 4;
     eval {
         local $SIG{ALRM} = sub { die 'timeout' };
         alarm 30;
-        $read = <$sock>;
+	if ($sock->can('my_read')) {
+	     $sock->my_read($read, 1024);
+	} else {
+            $read = <$sock>;
+	}
     };
 
     ok( $read, "Read some data from the socket" );
