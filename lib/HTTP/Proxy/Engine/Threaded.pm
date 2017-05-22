@@ -1,5 +1,5 @@
 package HTTP::Proxy::Engine::Threaded;
-
+$HTTP::Proxy::Engine::Threaded::VERSION = '0.304';
 use strict;
 use HTTP::Proxy;
 

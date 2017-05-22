@@ -1,5 +1,5 @@
 package HTTP::Proxy::HeaderFilter::standard;
-
+$HTTP::Proxy::HeaderFilter::standard::VERSION = '0.304';
 use strict;
 use HTTP::Proxy;
 use HTTP::Headers::Util qw( split_header_words );

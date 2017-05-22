@@ -1,5 +1,5 @@
 package HTTP::Proxy::Engine;
-
+$HTTP::Proxy::Engine::VERSION = '0.304';
 use strict;
 use Carp;
 

@@ -1,5 +1,5 @@
 package HTTP::Proxy::BodyFilter;
-
+$HTTP::Proxy::BodyFilter::VERSION = '0.304';
 use strict;
 use Carp;
 

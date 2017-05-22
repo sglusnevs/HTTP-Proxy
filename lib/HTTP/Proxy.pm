@@ -1,5 +1,5 @@
 package HTTP::Proxy;
-
+$HTTP::Proxy::VERSION = '0.304';
 use HTTP::Daemon;
 use HTTP::Date qw(time2str);
 use LWP::UserAgent;

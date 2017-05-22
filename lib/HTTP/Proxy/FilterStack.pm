@@ -1,5 +1,5 @@
 package HTTP::Proxy::FilterStack;
-
+$HTTP::Proxy::FilterStack::VERSION = '0.304';
 # Here's a description of the class internals
 # - filters: the list of (sub, filter) pairs that match the message,
 #            and through which it must go

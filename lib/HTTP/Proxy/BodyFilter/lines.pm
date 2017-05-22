@@ -1,5 +1,5 @@
 package HTTP::Proxy::BodyFilter::lines;
-
+$HTTP::Proxy::BodyFilter::lines::VERSION = '0.304';
 use strict;
 use Carp;
 use HTTP::Proxy::BodyFilter;

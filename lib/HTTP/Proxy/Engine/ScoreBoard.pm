@@ -1,5 +1,5 @@
 package HTTP::Proxy::Engine::ScoreBoard;
-
+$HTTP::Proxy::Engine::ScoreBoard::VERSION = '0.304';
 use strict;
 use POSIX ":sys_wait_h";    # WNOHANG
 use Fcntl qw(LOCK_UN LOCK_EX);

@@ -1,5 +1,5 @@
 package HTTP::Proxy::BodyFilter::tags;
-
+$HTTP::Proxy::BodyFilter::tags::VERSION = '0.304';
 use strict;
 use Carp;
 use HTTP::Proxy::BodyFilter;

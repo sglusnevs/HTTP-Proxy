@@ -1,5 +1,5 @@
 package HTTP::Proxy::HeaderFilter::simple;
-
+$HTTP::Proxy::HeaderFilter::simple::VERSION = '0.304';
 use strict;
 use Carp;
 use HTTP::Proxy::HeaderFilter;

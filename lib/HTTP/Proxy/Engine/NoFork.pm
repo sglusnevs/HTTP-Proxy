@@ -1,5 +1,5 @@
 package HTTP::Proxy::Engine::NoFork;
-
+$HTTP::Proxy::Engine::NoFork::VERSION = '0.304';
 use strict;
 
 our @ISA = qw( HTTP::Proxy::Engine );

@@ -1,5 +1,5 @@
 package HTTP::Proxy::Engine::Legacy;
-
+$HTTP::Proxy::Engine::Legacy::VERSION = '0.304';
 use strict;
 use POSIX 'WNOHANG';
 use HTTP::Proxy;

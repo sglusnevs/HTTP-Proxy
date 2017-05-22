@@ -1,7 +1,5 @@
 Revision history for Perl extension HTTP::Proxy
 
-{{$NEXT}}
-
 0.304 Tue Jun 16 2015
     [FIXES]
     - fix RT #105177 (Slaven Rezic and Gregor Herrmann), regarding Via: header

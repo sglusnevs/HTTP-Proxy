@@ -1,5 +1,5 @@
 package HTTP::Proxy::BodyFilter::save;
-
+$HTTP::Proxy::BodyFilter::save::VERSION = '0.304';
 use strict;
 use HTTP::Proxy;
 use HTTP::Proxy::BodyFilter;
