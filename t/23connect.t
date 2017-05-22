@@ -72,7 +72,12 @@ plan tests => 4;
     eval {
         local $SIG{ALRM} = sub { die 'timeout' };
         alarm 30;
-        $read = <$sock>;
+	# fix as described here: https://github.com/book/HTTP-Proxy/pull/8/commits/15976111fad4e63ec122d12622f392eb65f8cd3b
+	if ($sock->can('my_read')) {
+	    $sock->my_read($read, 1024);
+	} else {
+	    $read = <$sock>;
+	}
     };
 
     ok( $read, "Read some data from the socket" );
